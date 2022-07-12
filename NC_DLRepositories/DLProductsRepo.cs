@@ -15,7 +15,7 @@ namespace NC_DLRepositories
         public async Task<int> AddProduct(Product product)
         {
             Product newProduct = product;
-            dbCtx.Products.Add(newProduct);
+            await dbCtx.Products.AddAsync(newProduct);
             await dbCtx.SaveChangesAsync();
             return newProduct.Id;
         }

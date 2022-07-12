@@ -77,5 +77,3 @@ E:\.NET Practice\TestSolution\NC_Api\bin\Debug\net6.0\Microsoft.AspNetCore.JsonP
 E:\.NET Practice\TestSolution\NC_Api\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 E:\.NET Practice\TestSolution\NC_Api\bin\Debug\net6.0\Newtonsoft.Json.dll
 E:\.NET Practice\TestSolution\NC_Api\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
-E:\.NET Practice\TestSolution\NC_Api\obj\Debug\net6.0\NC_Api.RazorAssemblyInfo.cache
-E:\.NET Practice\TestSolution\NC_Api\obj\Debug\net6.0\NC_Api.RazorAssemblyInfo.cs
