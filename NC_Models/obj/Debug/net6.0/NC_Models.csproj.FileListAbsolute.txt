@@ -1,0 +1,12 @@
+E:\.NET Practice\TestSolution\NC_Models\bin\Debug\net6.0\NC_Models.deps.json
+E:\.NET Practice\TestSolution\NC_Models\bin\Debug\net6.0\NC_Models.dll
+E:\.NET Practice\TestSolution\NC_Models\bin\Debug\net6.0\ref\NC_Models.dll
+E:\.NET Practice\TestSolution\NC_Models\bin\Debug\net6.0\NC_Models.pdb
+E:\.NET Practice\TestSolution\NC_Models\obj\Debug\net6.0\NC_Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\.NET Practice\TestSolution\NC_Models\obj\Debug\net6.0\NC_Models.AssemblyInfoInputs.cache
+E:\.NET Practice\TestSolution\NC_Models\obj\Debug\net6.0\NC_Models.AssemblyInfo.cs
+E:\.NET Practice\TestSolution\NC_Models\obj\Debug\net6.0\NC_Models.csproj.CoreCompileInputs.cache
+E:\.NET Practice\TestSolution\NC_Models\obj\Debug\net6.0\NC_Models.dll
+E:\.NET Practice\TestSolution\NC_Models\obj\Debug\net6.0\ref\NC_Models.dll
+E:\.NET Practice\TestSolution\NC_Models\obj\Debug\net6.0\NC_Models.pdb
+E:\.NET Practice\TestSolution\NC_Models\obj\Debug\net6.0\NC_Models.csproj.AssemblyReference.cache

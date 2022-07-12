@@ -1,0 +1,14 @@
+E:\.NET Practice\TestSolution\DCSL_Test\bin\Debug\DCSL_Test.exe.config
+E:\.NET Practice\TestSolution\DCSL_Test\bin\Debug\DCSL_Test.exe
+E:\.NET Practice\TestSolution\DCSL_Test\bin\Debug\DCSL_Test.pdb
+E:\.NET Practice\TestSolution\DCSL_Test\obj\Debug\DCSL_Test.csproj.AssemblyReference.cache
+E:\.NET Practice\TestSolution\DCSL_Test\obj\Debug\DCSL_Test.csproj.SuggestedBindingRedirects.cache
+E:\.NET Practice\TestSolution\DCSL_Test\obj\Debug\DCSL_Test.Form1.resources
+E:\.NET Practice\TestSolution\DCSL_Test\obj\Debug\DCSL_Test.Properties.Resources.resources
+E:\.NET Practice\TestSolution\DCSL_Test\obj\Debug\DCSL_Test.csproj.GenerateResource.cache
+E:\.NET Practice\TestSolution\DCSL_Test\obj\Debug\DCSL_Test.csproj.CoreCompileInputs.cache
+E:\.NET Practice\TestSolution\DCSL_Test\obj\Debug\DCSL_Test.exe
+E:\.NET Practice\TestSolution\DCSL_Test\obj\Debug\DCSL_Test.pdb
+E:\.NET Practice\TestSolution\DCSL_Test\bin\Debug\DCSL_BusinessLayer.dll
+E:\.NET Practice\TestSolution\DCSL_Test\bin\Debug\DCSL_BusinessLayer.pdb
+E:\.NET Practice\TestSolution\DCSL_Test\obj\Debug\DCSL_Test.csproj.CopyComplete

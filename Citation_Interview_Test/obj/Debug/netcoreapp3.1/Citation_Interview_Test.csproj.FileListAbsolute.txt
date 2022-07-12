@@ -1,0 +1,14 @@
+E:\.NET Practice\TestSolution\Citation_Interview_Test\bin\Debug\netcoreapp3.1\Citation_Interview_Test.exe
+E:\.NET Practice\TestSolution\Citation_Interview_Test\bin\Debug\netcoreapp3.1\Citation_Interview_Test.deps.json
+E:\.NET Practice\TestSolution\Citation_Interview_Test\bin\Debug\netcoreapp3.1\Citation_Interview_Test.runtimeconfig.json
+E:\.NET Practice\TestSolution\Citation_Interview_Test\bin\Debug\netcoreapp3.1\Citation_Interview_Test.runtimeconfig.dev.json
+E:\.NET Practice\TestSolution\Citation_Interview_Test\bin\Debug\netcoreapp3.1\Citation_Interview_Test.dll
+E:\.NET Practice\TestSolution\Citation_Interview_Test\bin\Debug\netcoreapp3.1\Citation_Interview_Test.pdb
+E:\.NET Practice\TestSolution\Citation_Interview_Test\obj\Debug\netcoreapp3.1\Citation_Interview_Test.csproj.AssemblyReference.cache
+E:\.NET Practice\TestSolution\Citation_Interview_Test\obj\Debug\netcoreapp3.1\Citation_Interview_Test.GeneratedMSBuildEditorConfig.editorconfig
+E:\.NET Practice\TestSolution\Citation_Interview_Test\obj\Debug\netcoreapp3.1\Citation_Interview_Test.AssemblyInfoInputs.cache
+E:\.NET Practice\TestSolution\Citation_Interview_Test\obj\Debug\netcoreapp3.1\Citation_Interview_Test.AssemblyInfo.cs
+E:\.NET Practice\TestSolution\Citation_Interview_Test\obj\Debug\netcoreapp3.1\Citation_Interview_Test.csproj.CoreCompileInputs.cache
+E:\.NET Practice\TestSolution\Citation_Interview_Test\obj\Debug\netcoreapp3.1\Citation_Interview_Test.dll
+E:\.NET Practice\TestSolution\Citation_Interview_Test\obj\Debug\netcoreapp3.1\Citation_Interview_Test.pdb
+E:\.NET Practice\TestSolution\Citation_Interview_Test\obj\Debug\netcoreapp3.1\Citation_Interview_Test.genruntimeconfig.cache

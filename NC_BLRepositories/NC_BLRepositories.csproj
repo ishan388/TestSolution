@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NC_DLRepositories\NC_DLRepositories.csproj" />
+    <ProjectReference Include="..\NC_Models\NC_Models.csproj" />
+  </ItemGroup>
+
+</Project>

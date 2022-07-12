@@ -1,0 +1,9 @@
+E:\.NET Practice\TestSolution\DCSL_BusinessLayer\obj\Debug\net472\DCSL_BusinessLayer.csproj.AssemblyReference.cache
+E:\.NET Practice\TestSolution\DCSL_BusinessLayer\obj\Debug\net472\DCSL_BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\.NET Practice\TestSolution\DCSL_BusinessLayer\obj\Debug\net472\DCSL_BusinessLayer.AssemblyInfoInputs.cache
+E:\.NET Practice\TestSolution\DCSL_BusinessLayer\obj\Debug\net472\DCSL_BusinessLayer.AssemblyInfo.cs
+E:\.NET Practice\TestSolution\DCSL_BusinessLayer\obj\Debug\net472\DCSL_BusinessLayer.csproj.CoreCompileInputs.cache
+E:\.NET Practice\TestSolution\DCSL_BusinessLayer\bin\Debug\net472\DCSL_BusinessLayer.dll
+E:\.NET Practice\TestSolution\DCSL_BusinessLayer\bin\Debug\net472\DCSL_BusinessLayer.pdb
+E:\.NET Practice\TestSolution\DCSL_BusinessLayer\obj\Debug\net472\DCSL_BusinessLayer.dll
+E:\.NET Practice\TestSolution\DCSL_BusinessLayer\obj\Debug\net472\DCSL_BusinessLayer.pdb
