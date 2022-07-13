@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, Input, OnInit, ViewChild } from '@angular/core';
 import { ProductVM } from 'src/app/models/viewmodels/productVM.model';
 import { ProductsService } from 'src/app/services/products.service';
 
@@ -9,7 +9,7 @@ import { ProductsService } from 'src/app/services/products.service';
 })
 export class AddEditProductComponent implements OnInit {
 
-  public product!: ProductVM;
+  public product: ProductVM = new ProductVM();
 
   cancel() {
     this.product = {
@@ -21,30 +21,38 @@ export class AddEditProductComponent implements OnInit {
       createdDateTime: new Date(),
       modifiedDateTime: new Date()
     };
+    this.sendRefreshSignal();
   }
 
   constructor(private service: ProductsService) {
+    
   }
 
   ngOnInit(): void {
-    this.cancel();
+    this.service.selectedProduct.subscribe(data => {
+      if (data.id > 0)
+        this.product = data;
+    });
+  }
+
+  sendRefreshSignal() {
+    this.service.isProductedSavedorCancelled(true);
   }
 
   saveProduct(): void {
-    console.log(this.product);
-    if (this.product.id == 0) {
-      this.service.addProduct(this.product)
-        .subscribe(res => {
-          console.log(res);
-          this.cancel();
-        });
-    }
-    else {
-      this.service.editProduct(this.product)
-        .subscribe(res => {
-          console.log(res);
-          this.cancel();
-        });
+    if (this.product.name.length > 0) {
+      if (this.product.id == 0) {
+        this.service.addProduct(this.product)
+          .subscribe(res => {
+            this.cancel();
+          });
+      }
+      else {
+        this.service.editProduct(this.product)
+          .subscribe(res => {
+            this.cancel();
+          });
+      }
     }
   }
 

@@ -3,10 +3,10 @@
 <form #productForm="ngForm">
     <div class="row gtr-uniform">
         <div class="col-12">
-            <input type="text" name="productName" id="productName" value="" placeholder="Name" [(ngModel)]="product.name" />
+            <input type="text" name="productName" id="productName" value="" placeholder="Name" [(ngModel)]="product.name" required />
         </div>
         <div class="col-6">
-            <input type="text" name="price" id="price" value="" placeholder="Price" [(ngModel)]="product.price" />
+            <input type="text" name="price" id="price" value="" placeholder="Price" [(ngModel)]="product.price" required />
         </div>
         <div class="col-6">
             <select name="status" id="status" [(ngModel)]="product.status">

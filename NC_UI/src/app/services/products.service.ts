@@ -1,6 +1,6 @@
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { BehaviorSubject, Observable } from 'rxjs';
 import { Response } from '../models/common/response.model';
 import { ProductVM } from '../models/viewmodels/productVM.model';
 
@@ -30,6 +30,20 @@ export class ProductsService {
 
   editProduct(product: ProductVM): Observable<Response<number>> {
     return this.http.put<Response<number>>(this.apiPath, product);
+  }
+
+  //Fill product details in save form in click of any record of list
+  productTransfer_L2F = new BehaviorSubject<ProductVM>(new ProductVM());
+  selectedProduct = this.productTransfer_L2F.asObservable();
+  shareproductFromList2Form(product: ProductVM) {
+    this.productTransfer_L2F.next(product);
+  }
+
+  //Refresh the list in click of any button in save form
+  infoTransfer_F2L = new BehaviorSubject<boolean>(false);
+  anyButtonClick = this.infoTransfer_F2L.asObservable();
+  isProductedSavedorCancelled(isAnyButtonClick: boolean) {
+    this.infoTransfer_F2L.next(isAnyButtonClick);
   }
 
 }

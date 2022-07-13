@@ -15,6 +15,10 @@ export class ProductListComponent implements OnInit {
 
   ngOnInit(): void {
     this.getAllProducts();
+    this.service.anyButtonClick.subscribe(data => {
+      if (data)
+        this.getAllProducts();
+    });
   }
 
   public getAllProducts() {
@@ -25,7 +29,7 @@ export class ProductListComponent implements OnInit {
   }
 
   deleteProduct(productId: number) {
-    
+
     this.service.deleteProduct(productId)
       .subscribe(res => {
         this.getAllProducts();
@@ -33,7 +37,7 @@ export class ProductListComponent implements OnInit {
   }
 
   sendToEdit(product: ProductVM) {
-    console.log(product);
+    this.service.shareproductFromList2Form(product);
   }
 
 
