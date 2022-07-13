@@ -1,0 +1,26 @@
+<h2>Save Product Info</h2>
+<hr>
+<form #productForm="ngForm">
+    <div class="row gtr-uniform">
+        <div class="col-12">
+            <input type="text" name="productName" id="productName" value="" placeholder="Name" [(ngModel)]="product.name" />
+        </div>
+        <div class="col-6">
+            <input type="text" name="price" id="price" value="" placeholder="Price" [(ngModel)]="product.price" />
+        </div>
+        <div class="col-6">
+            <select name="status" id="status" [(ngModel)]="product.status">
+                <option value="1">Active</option>
+                <option value="2">Inactive</option>                
+                <option value="3">Suspended</option>
+                <option value="4">Removed</option>
+            </select>
+        </div>
+        <div class="col-12">
+            <ul class="actions">
+                <li><button class="button primary" (click)="saveProduct()">Save</button></li>
+                <li><button class="button" (click)="cancel()">Cancel</button></li>
+            </ul>
+        </div>
+    </div>
+</form>

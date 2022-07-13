@@ -8,60 +8,12 @@
     </header>
 
     <!-- Lists -->
-    <h2>Products</h2>
     <div class="row">
       <div class="col-6 col-12-small">
-
-        <div class="table-wrapper">
-          <table>
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Price</th>
-                <th>Status</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Item 1</td>
-                <td>29.99</td>
-                <td>Active</td>
-              </tr>
-              <tr>
-                <td>Item 2</td>
-                <td>19.99</td>
-                <td>Active</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
+        <product-list></product-list>
       </div>
       <div class="col-6 col-12-small">
-        <form method="post" action="#">
-          <div class="row gtr-uniform">
-            <div class="col-12">
-              <input type="text" name="productName" id="productName" value="" placeholder="Name" />
-            </div>
-            <div class="col-6">
-              <input type="text" name="price" id="price" value="" placeholder="Price" />
-            </div>
-            <div class="col-6">
-              <select name="status" id="status">
-                <option value="">- Status -</option>
-                <option value="1">Active</option>
-                <option value="2">Suspended</option>
-                <option value="3">Removed</option>
-              </select>
-            </div>
-            <div class="col-12">
-              <ul class="actions">
-                <li><button class="button primary">Save</button></li>
-                <li><button class="button">Cancel</button></li>
-              </ul>
-            </div>
-          </div>
-        </form>
+        <add-edit-product></add-edit-product>
       </div>
     </div>
 

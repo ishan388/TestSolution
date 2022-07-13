@@ -39,7 +39,7 @@ namespace NC_Api.Controllers
             return Ok(await blRepo.EditProduct(product).ConfigureAwait(false));
         }
 
-        [HttpDelete]
+        [HttpDelete("{productId}")]
         public async Task<IActionResult> DeleteProduct(int productId)
         {
             return Ok(await blRepo.DeleteProduct(productId).ConfigureAwait(false));
