@@ -25,7 +25,7 @@ namespace NC_DLRepositories
 
                 IConfigurationRoot configuration = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json")
+                .AddJsonFile("appsettings.json", false, true)
                 .Build();
                 optionsBuilder.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
             }

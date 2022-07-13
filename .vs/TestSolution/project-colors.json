@@ -10,7 +10,17 @@
       "ProjectGuid": "7d19c465-35ca-4431-b806-b5c626d1ec22",
       "DisplayName": "DCSL_Test",
       "ColorIndex": 1
+    },
+    "fee2ae67-5654-4bf3-b74b-b3a192073068": {
+      "ProjectGuid": "fee2ae67-5654-4bf3-b74b-b3a192073068",
+      "DisplayName": "NC_BLRepositories",
+      "ColorIndex": 2
+    },
+    "58538276-ff5e-4e10-878c-1eee7e4a7991": {
+      "ProjectGuid": "58538276-ff5e-4e10-878c-1eee7e4a7991",
+      "DisplayName": "NC_DLRepositories",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 4
 }

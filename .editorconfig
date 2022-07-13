@@ -2,3 +2,6 @@
 
 # IDE0022: Use block body for methods
 csharp_style_expression_bodied_methods = when_on_single_line
+
+# CS8601: Possible null reference assignment.
+dotnet_diagnostic.CS8601.severity = none

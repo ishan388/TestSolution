@@ -17,3 +17,5 @@ E:\.NET Practice\TestSolution\NC_BLRepositories\bin\Debug\net6.0\NC_BLRepositori
 E:\.NET Practice\TestSolution\NC_BLRepositories\bin\Debug\net6.0\NC_Models.dll
 E:\.NET Practice\TestSolution\NC_BLRepositories\bin\Debug\net6.0\NC_Models.pdb
 E:\.NET Practice\TestSolution\NC_BLRepositories\obj\Debug\net6.0\NC_BLRepositories.genruntimeconfig.cache
+E:\.NET Practice\TestSolution\NC_BLRepositories\obj\Debug\net6.0\NC_BLRepositories.Properties.Resources.resources
+E:\.NET Practice\TestSolution\NC_BLRepositories\obj\Debug\net6.0\NC_BLRepositories.csproj.GenerateResource.cache
